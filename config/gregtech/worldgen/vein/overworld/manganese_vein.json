@@ -1,0 +1,40 @@
+{
+  "weight": 20,
+  "density": 0.25,
+  "max_height": 30,
+  "min_height": 20,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "pyrolusite"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "dimension_filter": [
+    "dimension_id:111",
+    "dimension_id:0",
+    "dimension_id:-9999",
+    "dimension_id:-6"
+  ],
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:grossular"
+      },
+      {
+        "secondary": "ore:spessartine"
+      },
+      {
+        "between": "ore:pyrolusite"
+      },
+      {
+        "sporadic": "ore:tantalite"
+      }
+    ]
+  }
+}

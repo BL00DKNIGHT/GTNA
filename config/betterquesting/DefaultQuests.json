@@ -1,0 +1,4283 @@
+{
+  "build:8": "4.1.0",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:quest_book"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Modpack",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 0,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "1:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:placeholder"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Just Enough Items",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "2:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§bGTCEu",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:wrench",
+            "tag:10": {
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "RelocateMinedBlocks:1": 1
+              },
+              "GT.Tool:10": {
+                "AttackDamage:5": 101.0,
+                "AttackSpeed:5": -2.3,
+                "Durability:3": 0,
+                "HarvestLevel:3": 6,
+                "Material:8": "neutronium",
+                "MaxDurability:3": 65535,
+                "ToolSpeed:5": 184.0
+              },
+              "HideFlags:3": 2,
+              "Unbreakable:1": 1
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§bGTCEu",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 2,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "3:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§8GTNA§f Progression",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_block_frame_127"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§8GTNA§f Progression",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 3,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "4:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "EnderIO but §odifferent",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "enderio:item_enderface"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "EnderIO but §odifferent",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 4,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "5:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "storagedrawers:drawer_key"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Storage Drawers",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 5,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "6:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§5AE2",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:controller"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§5AE2",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 6,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "7:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§5AE2§f Addons",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "ae2wtlib:infinity_booster_card"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§5AE2§f Addons",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 7,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "8:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "chisel:chisel_hitech",
+            "tag:10": {
+              "chiseldata:10": {}
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Decoration Mods!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 8,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "9:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:molecular_assembler"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Automation",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 9,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "10:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2050,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§3GCYM§f Multiblock Expansion",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 10,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "11:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 640,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 11,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "12:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 64,
+            "Damage:2": 621,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 12,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "13:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 64,
+            "Damage:2": 623,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 13,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "14:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 64,
+            "Damage:2": 627,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 14,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "15:10": {
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 622,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 15,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "16:10": {
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 624,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 16,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "17:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 628,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 17,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "18:10": {
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 629,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 18,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "19:10": {
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 625,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 19,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "20:10": {
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 638,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 20,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "21:10": {
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 630,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 21,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "22:10": {
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 634,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 22,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "23:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 632,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 23,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "24:10": {
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 633,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 24,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "25:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 636,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 25,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "26:10": {
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 637,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 26,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "27:10": {
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 641,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 27,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "28:10": {
+      "preRequisites:11": [
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 642,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 28,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "29:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 500,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 29,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "30:10": {
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 500,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 30,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "31:10": {
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 500,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 31,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "32:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 644,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 32,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "33:10": {
+      "preRequisites:11": [
+        32
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 645,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 33,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "34:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:glass"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 34,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "35:10": {
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 646,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 35,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "36:10": {
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:glass"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 36,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "37:10": {
+      "preRequisites:11": [
+        36
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:glass"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 37,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "38:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 110,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 38,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "39:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 324,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 39,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "40:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 40,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "41:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 323,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 41,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "42:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 113,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 42,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "43:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 27,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 43,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "44:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2013,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 44,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "45:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2062,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 45,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "46:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2042,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 46,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "47:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 47,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "48:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32001,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 48,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "49:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 111,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 49,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "50:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 112,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 50,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "51:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 113,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 51,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "52:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 114,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 52,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "53:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 115,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 53,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "54:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 116,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 54,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "55:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 117,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 55,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "56:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2003,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 56,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "57:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 57,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "58:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 626,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 58,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "59:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 516,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 59,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "60:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 735,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 60,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "61:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 736,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 61,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "62:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 737,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 62,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "63:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 731,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 63,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "64:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 743,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 64,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "65:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 744,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 65,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "66:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 745,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 66,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "67:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 746,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 67,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "68:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 747,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 68,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "69:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 753,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 9223372036854775807
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 69,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "70:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 741,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 70,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "71:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 742,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 71,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "72:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 748,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 72,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "73:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 749,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 73,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "74:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 750,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 74,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "75:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 751,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 75,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "76:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 97,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 76,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "77:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 99,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 77,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "78:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1017,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Coke Oven",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 78,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "79:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Primitive Blast Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 79,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "80:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:metal_casing"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Steam Multiblocks",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 80,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "81:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1648,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Primitive Water Pump",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 81,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "82:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1013,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Large Boilers",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 82,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "83:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Plant Growthing Chamber",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 83,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "84:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1001,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Electric Blast Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 84,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "85:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1032,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Basic Fluid Drilling Rig",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 85,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "86:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1002,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Vacuum Freezer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 86,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "87:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1034,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Fluid Drilling Rig II",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 87,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "88:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1028,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 88,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "89:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1654,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 89,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "90:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1020,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fusion Reactor MK1",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 90,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "91:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1019,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Assline",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 91,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "92:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1026,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Basic Ore Drilling Plant",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 92,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "93:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1005,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Distillation Tower",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 93,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "94:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1009,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Oil Cracking Unit",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 94,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "95:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sun-based Greenhouse",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 97,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "96:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1021,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 99,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "97:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1022,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 100,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "98:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1027,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Ore Drilling Plant",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 103,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "99:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1033,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Fluid Drilling Rig",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 104,
+      "rewards:9": {},
+      "tasks:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:knowledge_book"
+          },
+          "name:8": "Tips \u0026 Tricks",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "       Introducing the modpack and explaining the basics of §bGTCEu§f, §5AE2§f, §6GTNA§k§k§f and Others progression for the newbies",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:quest_book"
+          },
+          "name:8": "Introduction",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 0,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
+          "y:3": -24
+        },
+        "1:10": {
+          "id:3": 1,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 36
+        },
+        "2:10": {
+          "id:3": 2,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 3,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -36
+        },
+        "4:10": {
+          "id:3": 4,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -60
+        },
+        "5:10": {
+          "id:3": 5,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 36
+        },
+        "6:10": {
+          "id:3": 6,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -12
+        },
+        "7:10": {
+          "id:3": 7,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 12
+        },
+        "8:10": {
+          "id:3": 8,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -60
+        },
+        "9:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -36
+        },
+        "10:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 12
+        }
+      }
+    },
+    "2:10": {
+      "lineID:3": 2,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§5AE2",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:network_tool"
+          },
+          "name:8": "§5Applied Energistics",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "3:10": {
+      "lineID:3": 3,
+      "order:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§7LV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 324,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Steel - §7LV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "4:10": {
+      "lineID:3": 4,
+      "order:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§bMV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Aluminium - §bMV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "5:10": {
+      "lineID:3": 5,
+      "order:3": 7,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§5§6HV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 323,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Stainless Steel - §5§6HV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "6:10": {
+      "lineID:3": 6,
+      "order:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§5EV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 113,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Titanium - §5EV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "7:10": {
+      "lineID:3": 7,
+      "order:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§1IV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2013,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Tungstensteel - §1IV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "8:10": {
+      "lineID:3": 8,
+      "order:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§dLuV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2062,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Rhodium Plated Palladium - §dLuV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "9:10": {
+      "lineID:3": 9,
+      "order:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§cZPM",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2042,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Naquadah Alloy - §cZPM",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "10:10": {
+      "lineID:3": 10,
+      "order:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§3UV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 27,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Darmstadtium - §3UV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "11:10": {
+      "lineID:3": 11,
+      "order:3": 13,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§4UHV",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Neutronium - §4UHV",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "12:10": {
+      "lineID:3": 12,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§7Voltage Tiers",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 621,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "§7Voltage Tiers",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 11,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 24
+        },
+        "1:10": {
+          "id:3": 12,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -120
+        },
+        "2:10": {
+          "id:3": 13,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -120
+        },
+        "3:10": {
+          "id:3": 14,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -120
+        },
+        "4:10": {
+          "id:3": 15,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -84
+        },
+        "5:10": {
+          "id:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -84
+        },
+        "6:10": {
+          "id:3": 17,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -84
+        },
+        "7:10": {
+          "id:3": 18,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -48
+        },
+        "8:10": {
+          "id:3": 19,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -48
+        },
+        "9:10": {
+          "id:3": 20,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 60
+        },
+        "10:10": {
+          "id:3": 21,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -12
+        },
+        "11:10": {
+          "id:3": 22,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 24
+        },
+        "12:10": {
+          "id:3": 23,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -48
+        },
+        "13:10": {
+          "id:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -12
+        },
+        "14:10": {
+          "id:3": 25,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -12
+        },
+        "15:10": {
+          "id:3": 26,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 24
+        },
+        "16:10": {
+          "id:3": 27,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 60
+        },
+        "17:10": {
+          "id:3": 28,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 96
+        },
+        "18:10": {
+          "id:3": 29,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 60
+        },
+        "19:10": {
+          "id:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 96
+        },
+        "20:10": {
+          "id:3": 31,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 132
+        },
+        "21:10": {
+          "id:3": 32,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 96
+        },
+        "22:10": {
+          "id:3": 33,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 132
+        },
+        "23:10": {
+          "id:3": 34,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 132
+        },
+        "24:10": {
+          "id:3": 35,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 168
+        },
+        "25:10": {
+          "id:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 168
+        },
+        "26:10": {
+          "id:3": 37,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 204
+        },
+        "27:10": {
+          "id:3": 38,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -204
+        },
+        "28:10": {
+          "id:3": 39,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -120
+        },
+        "29:10": {
+          "id:3": 40,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -84
+        },
+        "30:10": {
+          "id:3": 41,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -48
+        },
+        "31:10": {
+          "id:3": 42,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -12
+        },
+        "32:10": {
+          "id:3": 43,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 132
+        },
+        "33:10": {
+          "id:3": 44,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 24
+        },
+        "34:10": {
+          "id:3": 45,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 60
+        },
+        "35:10": {
+          "id:3": 46,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 96
+        },
+        "36:10": {
+          "id:3": 47,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 168
+        },
+        "37:10": {
+          "id:3": 48,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": 204
+        },
+        "38:10": {
+          "id:3": 49,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -204
+        },
+        "39:10": {
+          "id:3": 50,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -204
+        },
+        "40:10": {
+          "id:3": 51,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -204
+        },
+        "41:10": {
+          "id:3": 52,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -204
+        },
+        "42:10": {
+          "id:3": 53,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -204
+        },
+        "43:10": {
+          "id:3": 54,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -204
+        },
+        "44:10": {
+          "id:3": 55,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -204
+        },
+        "45:10": {
+          "id:3": 56,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -204
+        },
+        "46:10": {
+          "id:3": 57,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -156
+        },
+        "47:10": {
+          "id:3": 58,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -156
+        },
+        "48:10": {
+          "id:3": 59,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -156
+        },
+        "49:10": {
+          "id:3": 60,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -120
+        },
+        "50:10": {
+          "id:3": 61,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -84
+        },
+        "51:10": {
+          "id:3": 62,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -48
+        },
+        "52:10": {
+          "id:3": 63,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -156
+        },
+        "53:10": {
+          "id:3": 64,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -12
+        },
+        "54:10": {
+          "id:3": 65,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 24
+        },
+        "55:10": {
+          "id:3": 66,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 60
+        },
+        "56:10": {
+          "id:3": 67,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 96
+        },
+        "57:10": {
+          "id:3": 68,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 132
+        },
+        "58:10": {
+          "id:3": 69,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 168
+        },
+        "59:10": {
+          "id:3": 70,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -48
+        },
+        "60:10": {
+          "id:3": 71,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -12
+        },
+        "61:10": {
+          "id:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 24
+        },
+        "62:10": {
+          "id:3": 73,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 60
+        },
+        "63:10": {
+          "id:3": 74,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 96
+        },
+        "64:10": {
+          "id:3": 75,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 132
+        },
+        "65:10": {
+          "id:3": 76,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -204
+        },
+        "66:10": {
+          "id:3": 77,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -204
+        },
+        "67:10": {
+          "id:3": 78,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -156
+        },
+        "68:10": {
+          "id:3": 79,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -156
+        },
+        "69:10": {
+          "id:3": 80,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 372,
+          "y:3": -156
+        },
+        "70:10": {
+          "id:3": 81,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 336,
+          "y:3": -156
+        },
+        "71:10": {
+          "id:3": 82,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -120
+        },
+        "72:10": {
+          "id:3": 83,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 336,
+          "y:3": 24
+        },
+        "73:10": {
+          "id:3": 84,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -120
+        },
+        "74:10": {
+          "id:3": 85,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -84
+        },
+        "75:10": {
+          "id:3": 86,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -48
+        },
+        "76:10": {
+          "id:3": 87,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -12
+        },
+        "77:10": {
+          "id:3": 88,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": 60
+        },
+        "78:10": {
+          "id:3": 89,
+          "sizeX:3": 132,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -204
+        },
+        "79:10": {
+          "id:3": 90,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 60
+        },
+        "80:10": {
+          "id:3": 91,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 24
+        },
+        "81:10": {
+          "id:3": 92,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": -12
+        },
+        "82:10": {
+          "id:3": 93,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -48
+        },
+        "83:10": {
+          "id:3": 94,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 336,
+          "y:3": -48
+        },
+        "84:10": {
+          "id:3": 97,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -84
+        },
+        "85:10": {
+          "id:3": 99,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 96
+        },
+        "86:10": {
+          "id:3": 100,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 132
+        },
+        "87:10": {
+          "id:3": 103,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": 24
+        },
+        "88:10": {
+          "id:3": 104,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 372,
+          "y:3": -48
+        }
+      }
+    },
+    "13:10": {
+      "lineID:3": 13,
+      "order:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "name:8": "Bronze - §eSteam",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_anchor_x:5": 0.5,
+      "home_anchor_y:5": 0.0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0,
+      "livesdef:3": 3,
+      "livesmax:3": 10,
+      "pack_name:8": "",
+      "pack_version:3": 0,
+      "party_enable:1": 1
+    }
+  }
+}

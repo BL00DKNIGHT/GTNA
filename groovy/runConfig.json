@@ -1,0 +1,21 @@
+{
+  "packName": "GTNA",
+  "packId": "gtna",
+  "version": "0.0.1",
+  "debug": false,
+  "loaders": {
+    "packmode": [
+      "packmode/"
+    ],
+	  "assets": [
+      "assets/"
+    ],
+    "preInit": [
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/HighPriority.groovy",
+      "postInit/"
+    ]
+  }
+}

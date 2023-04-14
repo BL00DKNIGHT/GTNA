@@ -1,0 +1,32 @@
+material.polypropylene=Polypropylene (PP)
+material.polyacrylonitrile=Polyacrylonitrile (PAN)
+material.polydodecano_12_lactam=Nylon-12
+material.polychloroprene=Polychloroprene (CR)
+material.polyazanediyl_14_phenyleneazanediylterephthaloyl=Kevlar
+material.poly_p_phenylene_26_benzobisoxazole=Zylon
+material.polycarbonate=Polycarbonate (PC)
+material.polyethylene_terephthalate=Polyethylene Terephthalate (PET)
+material.polyether_ether_ketone=Polyether Ether Ketone (PEEK)
+material.crystal_matrix=Crystal Matrix
+material.crystal_fluix=Fluix Crystal
+material.silicagel=Silica Gel
+
+material.cyclododecratiene=Cyclododecratiene
+material.cyclododecane=Cyclododecane
+material.boric_acid=Boric Acid
+material.cobalt_ii_nitrate=Cobalt (II) Nitrate
+material.cobalt_ii_acetate=Cobalt (II) Acetate
+material.cyclododecanol=Cyclododecanol
+material.cyclododecanone=Cyclododecanone
+material.hydroxylamine=Hydroxylamine
+material.laurolactam=Laurolactam
+
+material.e_10=Ethanol 10%%
+material.e_25=Ethanol 25%%
+material.e_50=Ethanol 50%%
+material.e_85=Ethanol 85%%
+material.ed_95=ED Ethanol
+
+metaitem.circuit.wetware_processor.tooltip=You have a feeling like it's watching you/n§4ZPM-Tier
+metaitem.circuit.wetware_assembly.tooltip=Can run Minecraft/n§4UV-tier Circuit
+metaitem.circuit.wetware_computer.tooltip=Ultimate fusion of Flesh and Machine/n§4UHV-Tier

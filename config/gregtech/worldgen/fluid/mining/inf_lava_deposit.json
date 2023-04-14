@@ -1,0 +1,17 @@
+{
+  "weight": 33,
+  "name": "Mining Dimension Infinite Oil",
+  "yield": {
+    "min": 175,
+    "max": 300
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 0,
+    "depleted_yield": 79
+  },
+  "dimension_filter": [
+    "dimension_id:-6"
+  ],
+  "fluid": "lava"
+}
